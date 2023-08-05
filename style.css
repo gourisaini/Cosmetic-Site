@@ -13,6 +13,9 @@ body {
     font-family: 'Playfair Display';
     background-color: #fffcf5;
 }
+#mobile{
+    display: none;
+}
 
 main {
     width: 100%;
@@ -256,7 +259,7 @@ aside h6 {
     overflow: hidden;
 }
 
-#second img{
+#second img {
     width: 60%;
 }
 
@@ -583,4 +586,42 @@ footer #end3 a {
     text-decoration: none;
     color: #fffcf5;
     margin-bottom: 1vmax;
+}
+
+
+@media (max-width: 1200px) {
+    main{
+        display: none;
+    }
+
+    #second{
+        display: none;
+    }
+
+    #topPick{
+        display: none;
+    }
+
+    .boxes{
+        display: none;
+    }
+
+    #service{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    #footerIMG{
+        
+    }
+
+    #mobile{
+        text-align: center;
+        padding: 5vmax;
+        margin: auto;
+        display: flex;
+    }
 }
